@@ -21,11 +21,13 @@ web_stats = {'Day':[1, 2, 3, 4, 5, 6],
 
 df = pd.DataFrame(web_stats)
 
+#How to print the entire data frame or the beginning/end of a data frame.
 #print(df)
 #print(df.head())
 #print(df.tail())
 #print(df.tail(2))
 
+#Specifing an index for the data frame.
 #print(df.set_index('Day'))
 #print(df.head())
 
@@ -35,9 +37,11 @@ df = pd.DataFrame(web_stats)
 #df.set_index('Day', inplace=True)
 #print(df.head())
 
+#Referencing single column in the data frame.
 #print(df['Bounce_Rate'])
 #print(df.Visitors)
 
+#Referencing multiple columns in the data frame.
 #print(df[['Bounce_Rate', 'Visitors']])
 
 print(df.Visitors.tolist())
