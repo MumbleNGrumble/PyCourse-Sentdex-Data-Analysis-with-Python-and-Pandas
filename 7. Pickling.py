@@ -3,6 +3,9 @@
 Created on Thu Aug 17 23:29:36 2017
 
 @author: Daniel
+
+Part 7 - Pickling - p.7 Data Analysis with Python and Pandas Tutorial
+https://www.youtube.com/watch?v=WkIW0YLoQEE
 """
 
 import quandl
