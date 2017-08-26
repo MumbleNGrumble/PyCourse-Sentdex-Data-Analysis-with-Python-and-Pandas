@@ -103,7 +103,7 @@ m30 = mortgage_30y()
 HPI_data = pd.read_pickle("fiddy_states.pickle")
 HPI_bench = HPI_Benchmark()
 
-HPI = HPI_data.join([m30, US_unemployment, US_GDP, sp500])
+HPI = HPI_data.join([HPI_bench, m30, US_unemployment, US_GDP, sp500])
 HPI.dropna(inplace=True)
 print(HPI)
 
